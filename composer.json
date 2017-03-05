@@ -1,5 +1,5 @@
 {
-    "name": "fernando-almeida/probabilist_item_selector",
+    "name": "fernando-almeida/probabilistic_item_selector",
     "description": "Traverse items continuosly following a probabilistic distribution",
     "type": "library",
     "authors": [
