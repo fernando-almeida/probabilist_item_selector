@@ -8,7 +8,7 @@ use \ItemsSelector\Selectors\HighestDesiredProbabilitySelector;
 $itemSelector = new HighestDesiredProbabilitySelector();
 $selector = new Selector(TARGET_URLS, $itemSelector);
 
-chooseUrls( $selector, TARGET_URLS );
+chooseUrls( $selector, MAX_REQUESTS );
 showStatistics( $selector, TARGET_URLS );
 
 echo PHP_EOL;

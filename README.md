@@ -38,6 +38,30 @@ The following strategies have been implemented:
 
 ## Installation ##
 
+Use **Composer** to install this library from the following Git repository
+
+* [Git fernando-almeida/probabilistic_item_selector](https://github.com/fernando-almeida/probabilistic_item_selector)
+
+### Composer 
+Follow the [installation instructions](https://getcomposer.org/doc/00-intro.md) if you do not already have composer installed.
+
+Add the following repository to your project's composer.json file
+```
+"repositories": [
+	{ "type": "vcs", "url": "https://github.com/fernando-almeida/probabilistic_item_selector" }
+],
+```
+
+Once this repository is added, execute the following command in your project root to install this library:
+```sh
+composer require fernando-almeida/probabilistic_item_selector
+```
+
+Finally, be sure to include the autoloader:
+
+```php
+require_once '/path/to/your-project/vendor/autoload.php';
+```
 
 # Examples
 See the [`examples/`](examples) directory for examples of the key library features.
